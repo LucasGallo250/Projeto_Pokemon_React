@@ -5,7 +5,7 @@ export const FooterContent = styled.footer`
   position: inherit;
   bottom: 0;
   display: flex;
-  background-color: #961ED9;
+  background-color: #240B3B;
   
   .content{
     padding: 30px;
@@ -14,9 +14,9 @@ export const FooterContent = styled.footer`
     text-align: center;
     color: #fff;
     & img {
-      max-width: 100px;
+      max-width: 150px;
       height: auto;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     p{

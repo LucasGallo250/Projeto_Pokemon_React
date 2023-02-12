@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FooterContent } from './styles';
-import LuizaCode from '../../assets/images/logo-h-sm.png'
+import LuizaCode from '../../assets/images/logo.png'
 
 function Footer(){
   const dateNow = new Date();
@@ -9,6 +9,7 @@ function Footer(){
     <>
       <div className="mt-20" />
       <div className="multi-colors"/>
+    
       <FooterContent>
         <div className="content">
           <img src={LuizaCode} alt="Logo do Grupo" />

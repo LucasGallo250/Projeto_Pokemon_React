@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import { FloatContent } from './styles';
-import Magalu from '../../assets/images/magalu3.png'
+import Magalu from '../../assets/images/sungkawai.png'
 
 function OmniChannel(){
   return(

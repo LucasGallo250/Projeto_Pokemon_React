@@ -16,7 +16,7 @@ import { formatPrice } from "../../util/format";
 
 import { Container, TableProducts, Total } from "./styles";
 
-import LuizaCoders from '../../assets/images/luiza-labs.png'
+import LuizaCoders from '../../assets/images/guild1.png'
 
 function Cart({ products, total, removeFromCart, updateAmountRequest }) {
   const [ stores, setStores ] = useState([])

@@ -2,19 +2,19 @@
   "stock": [
     {
       "id": 1,
-      "amount": 3
+      "amount": 4
     },
     {
       "id": 2,
-      "amount": 5
+      "amount": 7
     },
     {
       "id": 3,
-      "amount": 2
+      "amount": 22
     },
     {
       "id": 4,
-      "amount": 1
+      "amount": 15
     },
     {
       "id": 5,
@@ -28,56 +28,56 @@
   "products": [
     {
       "id": 1,
-      "title": "Iphone Fake",
-      "price": 179.9,
-      "image": "https://a-static.mlcdn.com.br/1500x1500/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
+      "title": "Katana do Zoro Shisui - anime one piece",
+      "price": 779.9,
+      "image": "https://www.titano-store.com/inc/scripts/thumb.php?bg=ffffff&w=530&h=530&img=http%3A%2F%2Fadmin.abc.sm%2Fupload%2F5051%2Fcatalogodinamico%2Fprodotti%2Fimport_922319_KATANA_RORONOA_ZORO_ONE_PIECE_9_VERSION_ZS9488_C_1_0.jpg"
     },
     {
       "id": 2,
-      "title": "Iphone Fake",
-      "price": 139.9,
-      "image": "https://a-static.mlcdn.com.br/1500x1500/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
+      "title": "katana do uzui tengen - anime demon slayer",
+      "price": 350,
+      "image": "https://photos.enjoei.com.br/katana-do-uzui-tengen-anime-demon-slayer-66511879/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDkxODE5NS9kMjU1ZjdlYThhYWI5MjMwNTFlYjgzYTE2ZGNjMmJhNy5qcGc"
     },
     {
       "id": 3,
-      "title": "Iphone Fake",
-      "price": 219.9,
-      "image": "https://a-static.mlcdn.com.br/1500x1500/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
+      "title": "Katana do Mihawk - anime one piece",
+      "price": 400.9,
+      "image": "https://ae01.alicdn.com/kf/HTB1BNs0JXXXXXa8XVXXq6xXFXXX3/Katana-Samurai-japanese-Sword-Anime-ONE-PIECE-sword-anime-sword-best-collection-cosplay-sword.jpg_Q90.jpg_.webp"
     },
     {
       "id": 5,
-      "title": "Iphone Fake",
-      "price": 139.9,
-      "image": "https://a-static.mlcdn.com.br/1500x1500/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
+      "title": "Katana do Zoro Emma - anime one piece",
+      "price": 439.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwFWuejMnpX1Iyv5WHUFW_HTNwZAQ02Ip1W4ObgpqpLyNHjUZiJLArECUpWwqb0LpiDgQ&usqp=CAU"
     },
     {
       "id": 6,
-      "title": "Iphone Fake",
+      "title": "Katana do Zenitsu - anime demon slayer",
       "price": 219.9,
-      "image": "https://a-static.mlcdn.com.br/1500x1500/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
+      "image": "https://www.titano-store.com/inc/scripts/thumb.php?bg=ffffff&w=530&h=530&img=http%3A%2F%2Fadmin.abc.sm%2Fupload%2F5051%2Fcatalogodinamico%2Fprodotti%2Fimport_934779_KATANA_ZENITSU_AGATSUMA_DEMON_SLAYER_KIMETSU_NO_YAIBA_ZS653_1_0.jpg"
     },
     {
       "id": 4,
-      "title": "Iphone Fake",
-      "price": 179.9,
-      "image": "https://a-static.mlcdn.com.br/1500x1500/iphone-11-apple-64gb-branco-61-12mp-ios/magazineluiza/155614100/af1cd7d9c89d7306b52490a0ce1b8b34.jpg"
+      "title": "Katana do Rengoku - anime demon slayer",
+      "price": 279.9,
+      "image": "https://acerosdetoletum.com/wp-content/uploads/2021/11/S0245-ABIERTA.jpg"
     }
   ],
   "store": [
     {
       "id": 1,
-      "name": "Nome da Loja",
-      "city": "São Paulo"
+      "name": "Magalu 1291",
+      "city": "Altamira"
     },
     {
       "id": 2,
-      "name": "Nome da Loja",
+      "name": "Magalu 103",
       "city": "São Paulo"
     },
     {
       "id": 3,
-      "name": "Nome da Loja",
-      "city": "São Paulo"
+      "name": "Magalu 1000",
+      "city": "Belém"
     }
   ]
 }

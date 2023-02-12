@@ -6,7 +6,7 @@ import { MdShoppingBasket } from "react-icons/md";
 
 import { Container, Logo, Cart } from "./styles";
 
-import LuizaCode from '../../assets/images/logo-h-sm.png'
+import LuizaCode from '../../assets/images/Ahjin_Guild.png'
 
 function Header({ cartSize }) {
   return (
@@ -22,7 +22,7 @@ function Header({ cartSize }) {
             <strong>Meu carrinho</strong>
             <span>{cartSize} itens</span>
           </div>
-          <MdShoppingBasket size={36} color='#FFF' />
+          <MdShoppingBasket size={40} color='#FFF' />
         </Cart>
       </div>
     </Container>
