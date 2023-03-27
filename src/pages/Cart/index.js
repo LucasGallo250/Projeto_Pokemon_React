@@ -16,7 +16,7 @@ import { formatPrice } from "../../util/format";
 
 import { Container, TableProducts, Total } from "./styles";
 
-import LuizaCoders from '../../assets/images/guild1.png'
+
 
 function Cart({ products, total, removeFromCart, updateAmountRequest }) {
   const [ stores, setStores ] = useState([])
@@ -104,21 +104,7 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
         </tbody>
       </TableProducts>
       <div className="shipping">
-        <div>
-          <h5>Selecione a entrega:</h5>
-          <p>Confira as lojas disponíveis para retirada:</p>
-        </div>
-        <select name="select">
-          { stores.map( item => (
-            <option key={item.id} value={item.name}>{item.name} | {item.city}</option>
-          )) }
-        </select>
-        <div>
-          <h5>Vendido e entregue por:</h5>
-          <img src={LuizaCoders} alt="nome do grupo"/>
-        </div>
-      </div>
-      <div className="checkout">
+        {stores}
         <button type='button'>Finalizar pedido</button>
         <Total>
           <span>TOTAL</span>

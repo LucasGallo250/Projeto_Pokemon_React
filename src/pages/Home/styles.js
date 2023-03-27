@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { darken } from "polished";
 export const ProductList = styled.ul`
-  max-width: 70vw;
+  max-width: 90vw;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   list-style: none;
 `;
