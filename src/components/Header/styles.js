@@ -13,7 +13,7 @@ export const Container = styled.header`
 `;
 
 export const Logo = styled.img`
-  width: 120px;
+  width: 250px;
   transition: opacity 0.2s;
 
   &:hover {
@@ -40,11 +40,13 @@ export const Cart = styled(Link)`
     strong {
       display: block;
       color: #fff;
+      font-size: 17px;
     }
 
     span {
-      font-size: 12px;
-      color: #999;
+      font-size: 16px;
+      color: #CBCACA;
+      font-weight: bold;
     }
   }
 `;

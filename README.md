@@ -1,35 +1,48 @@
-# Omnichannel frontend || Luiza coders 3
-![](screen.png)
+# Projeto_Pokemon_Api_React
 
-Wireframe para visualização do client desafio Luiza Coders 3.
+## 💻 Descrição do Projeto
+<p>Projeto desenvolvido durante o curso do DIV Magalu da ReactJS - 2023</a> do Douglas Morais</p>
+<p>O projeto consiste na criação de uma pokedex web, que faz a listagem de todos os pokemos presentes na PokeApi, com dados detalhados sobre cada um. Para o desenvolvimento foi utilizado ReactJS consumindo a API do Pokemon v2 -> https://pokeapi.co/</p>
 
-## Como executar?
+<p>Desenvolvido:</p>
 
-### API 
-Esse projeto conta com um arquivo json para ser utilizado na biblioteca
+ - Catálogo de produtos
+ - Carrinho lateral
+ - Resumo do carrinho
 
-[json-server](https://github.com/typicode/json-server).
+Além disso também foram desenvolvidas as seguintes funcionalidades:
+ - Botão de finalizar compra, reiniciando o processo de compra;
+ - Modal de obrigado ao finalizar compra;
+ - Salvar os dados da compra do usuário localmente para não perdê-las ao atualizar a página.
 
-Execute o comando no terminal: 
-`yarn server`
-ou
-`npm server`
+### 🛠 Tecnologias
 
-Para mais informações (porta, delay, etc) acesse a documentação da biblioteca.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### front-end
+- [ReactJs](https://pt-br.reactjs.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-Execute no terminal o comando:
-`yarn start`
-ou
-`npm start`
+## 📥 Instalação e execução
 
-## Tecnologias
-- **ReactJS**: biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI)
-- **Redux**: controlador de estados geral e centralizado
-- **Redux-SAGA**: escalável gerenciador de Side-effects (efeitos colaterais)
+Faça um clone desse repositório e acesse o diretório.
 
-## Autor
+```
+$ git clone https://github.com/marcelogomes90/pokedex-react.git && cd pokedex-react/Pokedex
+```
 
-[Professor Douglas Morais](https://github.com/mrdouglasmorais)
-GamaAcademy | Luiza Coders
+```
+# Instalando as dependências
+$ npm install
+
+# Executanto aplicação
+$ npm start
+```
+
+### Autor
+
+Lucas Fernandes
+
+Linkedin: https://www.linkedin.com/in/lucas-gallo-71883b186/

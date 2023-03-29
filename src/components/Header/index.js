@@ -6,7 +6,7 @@ import { MdShoppingBasket } from "react-icons/md";
 
 import { Container, Logo, Cart } from "./styles";
 
-import LuizaCode from '../../assets/images/Ahjin_Guild.png'
+import LuizaCode from '../../assets/images/pokedex.png'
 
 function Header({ cartSize }) {
   return (

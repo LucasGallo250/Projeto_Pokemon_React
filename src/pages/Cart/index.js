@@ -42,10 +42,10 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
   };
 
   const incrementProduct = product =>
-    updateAmountRequest(product.id, product.amount + 1);
+    updateAmountRequest(product.data.id, product.amount + 1);
 
   const decrementProduct = product =>
-    updateAmountRequest(product.id, product.amount - 1);
+    updateAmountRequest(product.data.id, product.amount - 1);
   return (
     <Container>
       <TableProducts>
@@ -61,15 +61,15 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
 
         <tbody>
           {products.map(product => (
-            <tr key={product.id}>
+            <tr key={product.data.id}>
               <td>
                 <div className='image'>
-                  <img src={product.image} alt={product.title} />
+                  <img src={product.data.image} alt={product.data.title} />
                 </div>
               </td>
               <td>
-                <strong>{product.title}</strong>
-                <strong>{product.formattedPrice}</strong>
+                <strong>{product.data.title}</strong>
+                <strong>{product.data.formattedPrice}</strong>
               </td>
               <td>
                 <div>
@@ -79,7 +79,7 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
                   >
                     <MdRemoveCircleOutline size={20} color='#5960c1' />
                   </button>
-                  <input type='number' readOnly value={product.amount} />
+                  <input type='number' readOnly value={product.data.amount} />
                   <button
                     type='button'
                     onClick={() => incrementProduct(product)}
@@ -89,7 +89,7 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
                 </div>
               </td>
               <td>
-                <span>{product.subTotal}</span>
+                <span>{product.data.subTotal}</span>
               </td>
               <td>
                 <button
@@ -105,7 +105,7 @@ function Cart({ products, total, removeFromCart, updateAmountRequest }) {
       </TableProducts>
       <div className="shipping">
         {stores}
-        <button type='button'>Finalizar pedido</button>
+        <button className="botao_pedido" type='button'>Finalizar pedido</button>
         <Total>
           <span>TOTAL</span>
           <strong>{total}</strong>

@@ -12,8 +12,8 @@ import { addToCartSuccess, updateAmountSuccess } from "./actions";
 function* addToCart({ productId }) {
   // select manipula os states presentes nos reducers...
   // possui uma função que tem acesso a todos os states
-  const productExists = yield select(state =>
-    state.cart.find(product => product.id === productId)
+  const productExists = yield select(
+    state => state.cart.find(product => product.data.id === productId)
   );
 
   const stock = yield call(api.get, `/stock/${productId}`);

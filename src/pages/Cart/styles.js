@@ -5,7 +5,7 @@ import { darken } from "polished";
 export const Container = styled.div`
   padding: 30px;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 10px;
   max-width: 70vw;
   margin: auto;
 
@@ -13,11 +13,28 @@ export const Container = styled.div`
     margin-top: 40px;
     display: flex;
     width: 100%;
+    padding: 5px;
     justify-content: space-between;
 
     select{
       width: 250px;
       height: 40px;
+    }
+
+    .botao_pedido{
+      background: #5960c1;
+      color: #fff;
+      font-size: 15px;
+
+      border: 0;
+      border-radius: 5px;
+      padding: 12px 20px;
+
+      &:hover{
+        background: ${darken(0.1, "#5960c1")};
+        transition: 0.3s;
+      }
+
     }
 
     img{
@@ -56,8 +73,8 @@ export const TableProducts = styled.table`
 
   thead th {
     color: #999;
-    text-align: left;
-    padding: 12px;
+    text-align: center;
+    padding: 14px;
   }
 
   tbody td {
@@ -111,12 +128,12 @@ export const TableProducts = styled.table`
 export const Total = styled.div`
   display: flex;
   flex-direction: column;
-
   align-items: center;
 
   span {
     color: #999;
     font-weight: bold;
+    font-size: 15px;
   }
 
   strong {

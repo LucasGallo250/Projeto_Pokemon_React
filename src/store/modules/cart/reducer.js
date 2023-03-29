@@ -11,7 +11,7 @@ export default function cart(state = [], action) {
     case "@cart/REMOVE":
       return produce(state, draft => {
         const productIndex = draft.findIndex(
-          product => product.id === action.productId
+          product => product.data.id === action.productId
         );
 
         if (productIndex >= 0) {
@@ -22,7 +22,7 @@ export default function cart(state = [], action) {
     case "@cart/UPDATE_AMOUNT_SUCCESS": {
       return produce(state, draft => {
         const productIndex = draft.findIndex(
-          product => product.id === action.productId
+          product => product.data.id === action.productId
         );
 
         if (productIndex >= 0) {
